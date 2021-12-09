@@ -1,0 +1,2 @@
+/home/davidshelton/Área de trabalho/EstudoPython/ConversorBETA1/projetoPDF/pasta_ori
+/home/davidshelton/Área de trabalho/EstudoPython/ConversorBETA1/projetoPDF/pasta_dest
