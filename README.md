@@ -6,7 +6,8 @@ Ferramenta desenvolvida para fornecer uma interface simples para a conversão em
 ## Contribuição
 Olá, estudo python a quase 1 ano e sou iniciante em github, desenvolvi esse programa para aprender a fazer algo que fosse útil. Consegui, porém o meu código não é dos melhores e precisa de certos ajustes. Criei este repositório para aprender com quem quiser contribuir com o meu código e me ajudar a solucionar alguns problemas nele.
 
-
+## Compatibilidade:
+Windows e Linux
 
 ## Dependências
 
@@ -33,5 +34,3 @@ São diretórios de teste, temos a pasta de origem, onde serão buscados os arqu
 ## Problemas
 
 **1º- Depende de softwares externos:** A conversão de arquivos docx para pdf em python depende de um software intermediário, como word ou abiword por exemplo. Este código faz uso do abiword pois foi implementado em um sistema linux mint. 
-
-**2º- Compatibilidade:** Este segundo problema foi originado do primeiro. O sistema é compatível com linux, porém por falta de outros sistemas operacionais para testar, não tenho certeza se funciona em algum outro.
