@@ -1,10 +1,8 @@
-"""[Classes para a manipulação de arquivos de registro txt, Arquivos docx e de imagem e Diretórios]
-"""
-
-
 from pathlib import Path
 from notific import *
 
+"""[Classes para a manipulação de arquivos de registro txt, Arquivos docx e de imagem e Diretórios]
+"""
 
 class Registro():
     """[Representa um arquivo de registro de tipo txt]
@@ -60,7 +58,7 @@ class Registro():
                 l_aviso = 1 if self.tipo == 'arquivos' else 2
 
                 # Insira as linhas de aviso:
-                with open(registro, 'a+') as arq:
+                with open(registro, 'a+', encoding='utf-8') as arq:
                     for c in range(l_aviso):
                         arq.write('Caminho não registrado\n')
 
@@ -90,7 +88,7 @@ class Registro():
 
         # Abre o arquivo de registro e registra os caminhos,
         # um em cada linha do arquivo
-        with open(registro, 'w+') as arq:
+        with open(registro, 'w+', encoding='utf-8') as arq:
             arq.writelines(lista_cam)
 
         
@@ -110,7 +108,7 @@ class Registro():
         registro = self.registro
 
         # Abre o registro para leitura
-        with open(registro, 'r+') as arq:
+        with open(registro, 'r+', encoding='utf-8') as arq:
                 # Passa os caminhos do arquivo para uma lista
                 lista_linhas = arq.readlines()
 
@@ -119,7 +117,7 @@ class Registro():
                 lista_linhas.insert(linha, f"{caminho}\n") #\n para quebra de linha
 
         # Insere a lista_linhas modificada no registro
-        with open(registro, 'w+') as arq:
+        with open(registro, 'w+', encoding='utf-8') as arq:
             arq.writelines(lista_linhas)
 
 
@@ -140,7 +138,7 @@ class Registro():
 
 
         # Abre o arquivo e realiza uma leitura de todas as listas
-        with open(registro, 'r+') as arq:
+        with open(registro, 'r+', encoding='utf-8') as arq:
             lista_caminhos = arq.readlines() # Retorna uma lista de strings
 
         # Converte a lista de caminhos em uma tupla e retorna
