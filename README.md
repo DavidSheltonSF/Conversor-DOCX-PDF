@@ -41,4 +41,4 @@ São diretórios de teste, temos a pasta de origem, onde serão buscados os arqu
 
 ## Problemas
 
-**1º- Depende de softwares externos:** A conversão de arquivos docx para pdf em python depende de um software intermediário, como word ou abiword por exemplo. Este código faz uso do abiword pois foi implementado em um sistema linux mint. 
+**1º- Depende de softwares externos:** A conversão de arquivos docx para pdf em python depende de um software intermediário, como word (windows) ou abiword (linux) por exemplo. 
