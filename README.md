@@ -9,7 +9,7 @@ Olá, estudo python a quase 1 ano e sou iniciante em github, desenvolvi esse pro
 ## Compatibilidade:
 Windows e Linux
 
-## Dependências
+## Instalação
 
 Para o tratamento e converção de imagens instale as libs img2pdf e pillow:
 
