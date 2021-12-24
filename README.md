@@ -13,18 +13,26 @@ Windows e Linux
 
 Para o tratamento e converção de imagens instale as libs img2pdf e pillow:
 
-```pip install pillow```
+```
+pip install pillow
+```
 
-```pip install img2pdf```
+```
+pip install img2pdf
+```
 
 
 Se estiver usando linux instale o abiword:
 
-```sudo apt install abiword```
+```
+sudo apt install abiword
+```
 
 Para windows, instale docx2pdf:
 
-```pip install docx2pdf```
+```
+pip install docx2pdf
+```
 
 
 ## pasta_ori e pasta_dest
